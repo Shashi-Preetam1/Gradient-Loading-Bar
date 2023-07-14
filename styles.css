@@ -12,8 +12,8 @@ body {
     display: none;
 }
 
-.first,
-.second {
+.outer,
+.inner {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,25 +22,23 @@ body {
     transform: translate(-50%, -50%);
     position: absolute;
     margin: auto;
-    letter-spacing: -4px;
-    font-size: 85px;
     background: linear-gradient(135deg, white, white, #fce6ae, #94fff1, #9cf9ec, #f8b0c1, #ffc156);
     background-size: 400% 400%;
     animation: gradient 20s ease infinite;
-    padding: 20px;
 }
 
-.first {
-    margin: auto;
+.outer {
     box-shadow: inset 5px 5px 4px 10px #f0f0f0, inset -5px -5px 4px 10px white;
-    height: 800px;
-    width: 1375px;
+    height: 92%;
+    width: 92%;
 }
 
-.second {
+.inner {
     box-shadow: inset 10px 10px 40px 8px #f0f0f0, inset -10px -10px 40px 4px white;
-    height: 735px;
-    width: 1300px;
+    height: 92%;
+    width: 95%;
+    letter-spacing: -4px;
+    font-size: 85px;
 }
 
 @keyframes gradient {
