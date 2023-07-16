@@ -22,9 +22,10 @@ body {
     transform: translate(-50%, -50%);
     position: absolute;
     margin: auto;
-    background: linear-gradient(135deg, white, white, #fce6ae, #94fff1, #9cf9ec, #f8b0c1, #ffc156);
+    background: linear-gradient(135deg, white, white, #ffdf90, #7dfdec, #7dfdec, #fea7bb, #fdbb4a);
     background-size: 400% 400%;
-    animation: gradient 20s ease infinite;
+    animation: gradient 15s ease;
+    background-position: 65% 65%;
 }
 
 .outer {
@@ -50,23 +51,19 @@ body {
         background-position: 0% 0%;
     }
 
-    27.5% {
+    32.5% {
         background-color: 50% 50%;
     }
 
-    50% {
+    70% {
         background-position: 100% 100%;
     }
 
-    52% {
+    72% {
         background-position: 100% 100%;
-    }
-
-    77.5% {
-        background-color: 50% 50%;
     }
 
     100% {
-        background-position: 0% 0%;
+        background-position: 65% 65%;
     }
 }

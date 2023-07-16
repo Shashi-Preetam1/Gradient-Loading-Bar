@@ -44,7 +44,7 @@
 
 document.getElementById("num").style.display = "block";
 
-const timer = (fn, time = 100) => {
+const timer = (fn, time = 90) => {
     let nextAt, timeout;
     nextAt = new Date().getTime() + time;
 
